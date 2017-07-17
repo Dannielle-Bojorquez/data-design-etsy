@@ -19,7 +19,7 @@
 		<li>Location: The world</li>
 		<li>Character: The Builder</li>
 	</ul>
-		<h3>user case</h3>
+		<h2>user case</h2>
 		<p>Jen's goal is to show more people her work</p>
 			<ol>
 			<li>Jen opens her web browser</li>
@@ -31,6 +31,12 @@
 			<li>reviews the post</li>
 			<li>submits post</li>
 		</ol>
-
+		<h3>Atributes</h3>
+		<ul>
+			<li>Account Id</li>
+			<li>Profile Name</li>
+			<li>Email</li>
+			<li>Profile Information</li>
+		</ul>
 		</body>
 </html>

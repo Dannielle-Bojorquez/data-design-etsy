@@ -20,7 +20,7 @@
 		<li>Character: The Builder</li>
 	</ul>
 		<h2>user case</h2>
-		<p>Jen's goal is to show more people her work</p>
+		<p>Jen's goal is to put her work out there for purchase</p>
 		<h3>Interaction Flow</h3>
 			<ol>
 			<li>Jen opens her web browser</li>
@@ -42,12 +42,27 @@
 			<li>Profile Phone</li>
 			<li>Profile salt</li>
 		</ul>
-		<h5>Relations</h5>
+		<h5>Item Submission</h5>
+		<ul>
+			<li>Account Id</li>
+			<li>product photo</li>
+			<li>product description</li>
+			<li>date of post</li>
+		</ul>
+		<h6>purchase</h6>
+		<ul>
+			<li>quantity</li>
+			<li>payment source</li>
+			<li>payment information</li>
+			<li>reveiw of perchase</li>
+			<li>payment submission</li>
+			<li>confirmation number</li>
+		</ul>
+		<h6>Relations</h6>
 		<ul>
 			<li>multiple users can comment on multiple items</li>
 			<li>multiple users can order multiple items</li>
 			<li>multiple users can chose multiple ways to pay</li>
-			<li></li>
 		</ul>
 		</body>
 </html>

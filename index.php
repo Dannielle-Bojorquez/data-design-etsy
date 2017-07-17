@@ -21,6 +21,7 @@
 	</ul>
 		<h2>user case</h2>
 		<p>Jen's goal is to show more people her work</p>
+		<h3>Interaction Flow</h3>
 			<ol>
 			<li>Jen opens her web browser</li>
 			<li>types in the web address</li>
@@ -31,12 +32,7 @@
 			<li>reviews the post</li>
 			<li>submits post</li>
 		</ol>
-		<h3>Atributes</h3>
-		<ul>
-			<li>Account Id</li>
-			<li>Profile Name</li>
-			<li>Email</li>
-			<li>Profile Information</li>
-		</ul>
+		<h4>Conceptual Model</h4>
+
 		</body>
 </html>

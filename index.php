@@ -33,6 +33,21 @@
 			<li>submits post</li>
 		</ol>
 		<h4>Conceptual Model</h4>
-
+		<ul>
+			<li>ProfileId</li>
+			<li>Profile Activation Token</li>
+			<li>Profile Handle</li>
+			<li>Profile Email</li>
+			<li>Profile hash</li>
+			<li>Profile Phone</li>
+			<li>Profile salt</li>
+		</ul>
+		<h5>Relations</h5>
+		<ul>
+			<li>multiple users can comment on multiple items</li>
+			<li>multiple users can order multiple items</li>
+			<li>multiple users can chose multiple ways to pay</li>
+			<li></li>
+		</ul>
 		</body>
 </html>

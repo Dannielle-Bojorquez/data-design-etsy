@@ -25,23 +25,35 @@
 		<h2>Interaction Flow</h2>
 			<ol>
 			<li>Jen opens her web browser</li>
-			<li>types in the web address</li>
 			<li>clicks sign in button</li>
 			<li>enters login info</li>
-			<li>loads a picture of her latest creation</li>
-			<li>puts in a discription and price</li>
-			<li>reviews the post</li>
+			<li>submits for login</li>
+			<li>click add new listing</li>
+			<li>add a picture of her latest creation</li>
+			<li>add a title</li>
+			<li>put in a description</li>
+			<li>who made it</li>
+			<li>what it is</li>
+			<li>when it was made</li>
+			<li>chose a category</li>
+			<li>pick a renewal option</li>
+			<li>list tags related to your item</li>
+			<li>list material in your item</li>
+			<li>list price and inventory</li>
+			<li>variations</li>
+			<li>shipping options</li>
+			<li>preview the post</li>
 			<li>submits post</li>
 		</ol>
 		<h2>Conceptual Model</h2>
 		<ul>
 			<li>ProfileId</li>
-			<li>Profile Activation Token</li>
-			<li>Profile Handle</li>
-			<li>Profile Email</li>
-			<li>Profile hash</li>
-			<li>Profile Phone</li>
-			<li>Profile salt</li>
+			<li>ProfileActivationToken</li>
+			<li>ProfileHandle</li>
+			<li>ProfileEmail</li>
+			<li>Profilehash</li>
+			<li>ProfilePhone</li>
+			<li>Profilesalt</li>
 		</ul>
 		<h3>Item Submission</h3>
 		<ul>
@@ -49,15 +61,6 @@
 			<li>product photo</li>
 			<li>product description</li>
 			<li>date of post</li>
-		</ul>
-		<h3>purchase</h3>
-		<ul>
-			<li>quantity</li>
-			<li>payment source</li>
-			<li>payment information</li>
-			<li>reveiw of perchase</li>
-			<li>payment submission</li>
-			<li>confirmation number</li>
 		</ul>
 		<h2>Relations</h2>
 		<ul>

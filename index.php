@@ -57,10 +57,12 @@
 		</ul>
 		<h3>Item Submission</h3>
 		<ul>
-			<li>Account Id</li>
-			<li>product photo</li>
-			<li>product description</li>
-			<li>date of post</li>
+			<li>productid</li>
+			<li>productphoto</li>
+			<li>productdescription</li>
+			<li>productname</li>
+			<li>productprice</li>
+			<li>priductprofileid</li>
 		</ul>
 		<h2>Relations</h2>
 		<ul>
@@ -68,5 +70,6 @@
 			<li>multiple users can order multiple items</li>
 			<li>multiple users can chose multiple ways to pay</li>
 		</ul>
+		<img src="epic/image/chart.jpg" alt="chart"/>
 		</body>
 </html>

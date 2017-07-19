@@ -20,6 +20,7 @@ CREATE TABLE product (
 	productProfileId INT UNSIGNED NOT NULL,
 	productname VARCHAR(140) NOT NULL,
 	productprice VARCHAR(140) NOT NULL,
+	productphoto VARCHAR(140) NOT NULL,
 	INDEX(productProfileId),
 	FOREIGN KEY(productProfileId) REFERENCES profile(profileId),
 	PRIMARY KEY(productId)

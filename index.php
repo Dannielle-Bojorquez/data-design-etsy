@@ -58,7 +58,6 @@
 		<h3>Item Submission</h3>
 		<ul>
 			<li>productid</li>
-			<li>productphoto</li>
 			<li>productdescription</li>
 			<li>productname</li>
 			<li>productprice</li>
@@ -70,6 +69,6 @@
 			<li>multiple users can order multiple items</li>
 			<li>multiple users can chose multiple ways to pay</li>
 		</ul>
-		<img src="epic/image/chart.jpg" alt="chart"/>
+		<img src="epic/image/chart1.jpg" alt="chart1"/>
 		</body>
 </html>

@@ -1,4 +1,5 @@
 <?php
+
 /**Section of Profile information
  *
  * This information is an example of what is stored when someone uses their profile. This
@@ -49,6 +50,7 @@ class Profile {
 	 *
 	 **/
 	private $profileSalt;
+
 	/**
 	 * constructor for this profile
 	 * @param string $newProfileHash
@@ -79,6 +81,7 @@ class Profile {
 			throw(new $exceptionType($exception->getMessage(), 0, $exception));
 		}
 	}
+
 	/**
 	 * accessor method for profile id
 	 *
@@ -87,6 +90,7 @@ class Profile {
 	public function getProfileId(): int {
 		return ($this->profileId);
 	}
+
 	/**
 	 * mutator method for profile id
 	 *
@@ -107,6 +111,7 @@ class Profile {
 		// convert and store the profile id
 		$this->profileId = $newProfileId;
 	}
+
 	/**
 	 * accessor method for profile Activation Token
 	 *
@@ -115,6 +120,7 @@ class Profile {
 	public function getProfileActivationToken(): string {
 		return ($this->profileActivationToken);
 	}
+
 	/**
 	 * mutator method for profileActivationToken
 	 *
@@ -130,6 +136,7 @@ class Profile {
 		// convert and store the profile id
 		$this->profileActivationToken = $newProfileActivationToken;
 	}
+
 	/**
 	 * accessor method for profile At Handle
 	 *
@@ -138,6 +145,7 @@ class Profile {
 	public function getProfileAtHandle(): string {
 		return ($this->profileAtHandle);
 	}
+
 	/**
 	 * mutator method for profile At Handle
 	 *
@@ -160,6 +168,7 @@ class Profile {
 // store the profile at handle content
 		$this->profileAtHandle = $newProfileAtHandle;
 	}
+
 	/**
 	 * accessor method for profile email
 	 *
@@ -168,6 +177,7 @@ class Profile {
 	public function getProfileEmail() {
 		return ($this->profileEmail);
 	}
+
 	/**
 	 * mutator method for profile Email
 	 *
@@ -177,10 +187,11 @@ class Profile {
 	public function setProfileEmail($newProfileEmail = null): void {
 		// base case: if the date is null, return error
 		if($newProfileEmail === null) {
-			$this->profileEmail = new \profileEmail();
+			$this->profileEmail = null;
 			return;
 		}
 	}
+
 	/**
 	 * accessor method for profile phone
 	 *
@@ -189,6 +200,7 @@ class Profile {
 	public function getProfilePhone() {
 		return ($this->profilePhone);
 	}
+
 	/**
 	 * mutator method for profile phone
 	 *
@@ -203,6 +215,7 @@ class Profile {
 			return;
 		}
 	}
+
 	/**
 	 * accessor method for profile hash
 	 *
@@ -211,6 +224,7 @@ class Profile {
 	public function getProfileHash() {
 		return ($this->profileHash);
 	}
+
 	/**
 	 * mutator method for profile phone
 	 *
@@ -225,6 +239,7 @@ class Profile {
 			return;
 		}
 	}
+
 	/**
 	 * accessor method for profile salt
 	 *
@@ -233,6 +248,7 @@ class Profile {
 	public function getProfileSalt() {
 		return ($this->profileSalt);
 	}
+
 	/**
 	 * mutator method for profile salt
 	 *

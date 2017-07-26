@@ -8,7 +8,7 @@
 	<p>
 		<h1>Persona and Demographics</h1>
 		<img src="epic/image/jen.jpg" alt="jen"/>
-		<p>Jen is the an eutrapenur. Who makes custom furniture for Tiny House Living. She likes to build things with her
+		<p>Jen is the an entrepreneur. Who makes custom furniture for Tiny House Living. She likes to build things with her
 			own hands that are made to her customer's needs. She likes that her products are personal and not products that
 			are mass produced and pushed out by the thousands. She loves the customization of every new piece that she makes.
 			Her own form of art work that others may enjoy.</p>
